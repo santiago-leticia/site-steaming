@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+background-color: rgb(0, 0, 0);}
+
+body{
+    min-height: 50vh;
+    display: flex;
+    flex-direction:column;
+}
+body>header{
+    min-height: 50px;
+    width: 100%;
+    padding: 0px 20px;
+    background-color: #1043a1;   
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    border: 5px solid;
+    border-color:#1043a1 #1043a1 rgb(0, 119, 255) #1043a1  ;
+
+}
+header h2{
+    font-size: 25px;
+    background-color:  #1043a1;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    color: rgb(255, 255, 255);
+}
+header h3{
+    font: 20px;
+    float: bold normal ;
+    color: white;
+    background-color: #1043a1;
+}
+header a {
+    text-decoration: none;
+    background-color: #004585;
+}
+header img{
+    width: 40px;
+    height: 30;
+}
+button{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(0, 132, 255);
+    border: initial;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+main h1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 20vh;
+    flex-direction:column;
+    min-height: 20px;
+    width: 100%;
+    padding: 0px 5px;
+    background-color: hsl(219, 60%, 51%);   
+}
+h1{
+    color: white;
+    font-size: x-large;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    unicode-bidi: isolate;
+
+}
+section a{
+    font-size: 25px;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
