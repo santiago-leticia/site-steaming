@@ -102,3 +102,8 @@ iframe{
     float: left;
     margin-right: 20px;
 }
+
+div{
+    display: flex;
+    align-items: center;
+}
